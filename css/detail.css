@@ -1,0 +1,219 @@
+
+/* =====[ GLOBAL STYLES ]======================================================================== */
+
+body {
+    min-width: 320px;
+}
+
+.container {
+    width: auto;
+    max-width: 960px;
+    min-width: 294px;
+}
+
+/* =====[ MENU ]================================================================================= */
+
+#menu .container {
+    display: block;
+}
+
+#menu .wrapper {
+    display: table;
+    width: 100%;
+}
+
+#menu .right {
+    padding-left: 50px;
+    text-align: right;
+}
+
+#menu .right a {
+    font-size: 15px;
+    color: #f21266;
+}
+
+#menu .right a:hover {
+    text-decoration: underline;
+}
+
+/* =====[ HEADER ]=============================================================================== */
+
+#header {
+    background: url(../images/capa.jpg) #708090;
+}
+
+#header .container {
+    padding: 70px 0 71px;
+    color: #fbfbfb;
+    font-size: 40px;
+}
+
+/* =====[ NAVIGATION ]=========================================================================== */
+
+#navigation {
+    border-bottom: 1px solid #cacaca;
+    z-index: 1;
+    box-shadow: 0 2px 0 #f0f0f0;
+    -webkit-box-shadow: 0 2px 0 #f0f0f0;
+    -moz-box-shadow: 0 2px 0 #f0f0f0;
+    -ms-box-shadow: 0 2px 0 #f0f0f0;
+    -o-box-shadow: 0 2px 0 #f0f0f0;
+    behavior: url(pie.htc);
+}
+
+#navigation ul {
+    display: table;
+    width: 100%;
+    background: #fff;
+}
+
+#navigation li {
+    display: table-cell;
+    padding: 19px;
+    text-align: center;
+    color: #7c8387;
+}
+
+#navigation li:first-child {
+    padding-left: 0;
+    text-align: left;
+}
+
+#navigation li:last-child {
+    padding-right: 0;
+    text-align: right;
+}
+
+#navigation li,
+#navigation a {
+    font-size: 15px;
+}
+
+#navigation a {
+    color: #f21266;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation a.link {
+    padding-left: 26px;
+    color: #007ff6;
+    background: url(../img/link.png) no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    #navigation ul {
+        padding: 10px 0;
+    }
+    
+    #navigation ul,
+    #navigation li {
+        display: block !important;
+    }
+    
+    #navigation li {
+        padding: 10px !important;
+        text-align: center !important;
+    }
+}
+
+/* =====[ INFO ]================================================================================= */
+
+#info {
+    background: #f6f6f6;
+}
+
+#info .container {
+    padding: 57px 0 41px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    color: #7c8387;
+}
+
+#info .container > * + * {
+    margin-top: 10px;
+}
+
+#info h2 {
+    font-size: 28px;
+    line-height: 32px;
+    color: #2d2d2d;
+}
+
+/* =====[ SLIDER ]=============================================================================== */
+
+#slider {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 64px;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+#slider img {
+    max-width: 100% !important;
+    vertical-align: bottom;
+}
+
+#slider li {
+    text-align: center;
+}
+
+#slider .arrow {
+    display: block;
+    position: absolute;
+    top: 19%;
+    margin-top: -35px;
+    width: 29px;
+    height: 35px;
+    cursor: pointer;
+    background: url(../img/header.png);
+    z-index: 1;
+}
+
+#slider .arrow.left {
+    left: 0;
+}
+
+#slider .arrow.right {
+    right: 0;
+    background-position: right top;
+}
+
+#slider .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#slider .arrow.right:hover {
+    background-position: right bottom;
+}
+
+/* =====[ CONTACT US ]=========================================================================== */
+
+#contact_us {
+    border-bottom: 1px solid #afafaf;
+    text-align: center;
+    background: #f6f6f6;
+}
+
+#contact_us .container {
+    padding: 73px 0 72px;
+}
+
+#contact_us h2 {
+    font-family: HelveticaLight;
+    font-size: 22px;
+    color: #2d2d2d;
+}
+
+#contact_us .button {
+    margin-top: 26px;
+}
+
+/* =====[ FOOTER ]=============================================================================== */
+
+#footer {
+    padding: 46px 0 80px;
+}

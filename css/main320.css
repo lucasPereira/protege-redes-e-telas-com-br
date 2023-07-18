@@ -1,0 +1,452 @@
+
+/* =====[ GLOBAL STYLES ]======================================================================== */
+
+body {
+    min-width: 320px;
+}
+
+body > div {
+    padding: 0 13px;
+}
+
+.container {
+    width: 294px;
+}
+
+/* =====[ MENU ]================================================================================= */
+
+#menu.small .left {
+    width: 211px;
+    margin: 8px 0 8px 0;
+}
+
+#menu .combo {
+    margin-right: -6px;
+}
+
+#menu .combo ul {
+    top: 66px;
+    left: -2px;
+    right: -4px;
+}
+
+#menu .combo .spike {
+    right: 16px;
+}
+
+/* =====[ HEADER ]=============================================================================== */
+
+/* -----[ SLIDER ]------------------------------------------------------------------------------- */
+
+#header ul,
+#header li {
+    height: 415px;
+}
+
+/* -----[ SLIDE 1 ]------------------------------------------------------------------------------ */
+
+#header .slide1 img {
+    margin-top: 51px;
+    width: 78px;
+}
+
+#header .slide1 h2 {
+    margin-top: 27px;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+#header .slide1 p {
+    margin-top: 14px;
+    font-size: 21px;
+}
+
+#header .slide1 .button {
+    display: block;
+    margin: 46px 0 0;
+}
+
+/* =====[ TWITTER ]============================================================================== */
+
+#twitter .container {
+    padding: 21px 10px 20px;
+    width: auto;
+    background: none;
+}
+
+#twitter .user {
+    margin-left: -24px;
+    padding-left: 24px;
+    line-height: 14px;
+    background: url(../img/480/twitter.png) no-repeat left top;
+}
+
+#twitter .tweet,
+#twitter .tweet a {
+    font-size: 13px;
+}
+
+#twitter .tweet {
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+#twitter .time {
+    margin-top: 11px;
+}
+
+/* =====[ WORKS ]================================================================================ */
+
+#works .container {
+    overflow: visible;
+    padding: 53px 0 40px;
+}
+
+/* -----[ MENU ]--------------------------------------------------------------------------------- */
+
+#works .menu {
+    margin: 0 -3px;
+}
+
+#works .menu p {
+    display: block;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#works .list {
+    margin-top: 31px;
+    width: 293px;
+}
+
+#works .list li {
+    margin: 0;
+}
+
+#works .list li + li {
+    margin-top: 43px;
+}
+
+#works .list a,
+#works .list img,
+#works .list a .hover {
+    width: 293px;
+    height: 219px;
+}
+
+#works .list a .hover {
+    background: url(../img/320/work.png);
+}
+
+#works .all {
+    margin-top: 35px;
+}
+
+/* =====[ SERVICES ]============================================================================= */
+
+#services .container {
+    overflow: visible;
+    padding: 64px 0 54px;
+}
+
+#services h2 {
+    font-size: 20px;
+}
+
+#services h2 + p {
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#services .arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1;
+    background: url(../img/320/carousel.png);
+}
+
+#services .arrow.left {
+    left: -4px;
+}
+
+#services .arrow.right {
+    right: -4px;
+    background-position: right top;
+}
+
+#services .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#services .arrow.right:hover {
+    background-position: right bottom;
+}
+
+#services .list {
+    margin-top: 34px;
+}
+
+#services .list .wrapper {
+    margin: 0 auto !important;
+    width: 218px !important;
+}
+
+#services .list li {
+    margin: 0 0 25px 0 !important;
+}
+
+/* =====[ MEMBERS ]============================================================================== */
+
+#members .container {
+    overflow: visible;
+    padding: 69px 0 97px;
+}
+
+#members h2 {
+    font-size: 21px;
+}
+
+#members h2 + p {
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#members .list {
+    overflow: visible;
+    position: relative;
+    margin: 51px 0 0 59px;
+}
+
+#members .list,
+#members .list .wrapper {
+    width: 180px !important;
+}
+
+#members .list li {
+    margin-right: 7px !important;
+}
+
+#members .arrow {
+    display: block;
+    position: absolute;
+    top: 79px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(../img/320/carousel.png);
+}
+
+#members .arrow.left {
+    left: -63px;
+    background-position: top left;
+}
+
+#members .arrow.right {
+    right: -63px;
+    background-position: top right;
+}
+
+#members .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#members .arrow.right:hover {
+    background-position: right bottom;
+}
+
+/* =====[ CONTACT US ]=========================================================================== */
+
+#contact_us .decoration {
+    width: 164px;
+    height: 197px;
+    background: url(../img/320/contact_us.png);
+}
+
+#contact_us .container {
+    padding: 73px 0 144px;
+}
+
+#contact_us h2 {
+    font-size: 15px;
+}
+
+#contact_us .button {
+    margin-top: 33px;
+}
+
+/* =====[ ABOUT ]================================================================================ */
+
+#about .container {
+    padding-bottom: 160px;
+}
+
+#about .container > img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 294px;
+}
+
+#about .column {
+    float: none;
+    margin-top: 28px;
+    padding: 0;
+    width: auto;
+}
+
+#about h2,
+#about p {
+    text-align: center;
+}
+
+#about ul {
+    margin: 22px 0 0 18px;
+}
+
+#about li {
+    line-height: 16px;
+    background-position: left 5px;
+}
+
+#about li + li {
+    margin-top: 10px;
+}
+
+#about .column .favorites {
+    display: none;
+}
+
+#about .container > .favorites {
+    display: block;
+    margin-top: 39px;
+}
+
+/* =====[ CLIENTS ]============================================================================== */
+
+#clients .container {
+    padding-bottom: 75px;
+}
+
+#clients .arrow {
+    top: 58px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/320/carousel.png);
+}
+
+#clients .arrow.left {
+    left: -4px;
+    background-position: top left;
+}
+
+#clients .arrow.right {
+    right: -4px;
+    background-position: top right;
+}
+
+#clients .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#clients .arrow.right:hover {
+    background-position: right bottom;
+}
+
+#clients .carousel {
+    margin: 0 auto !important;
+    width: 222px !important;
+}
+
+#clients .carousel li {
+    margin-right: 7px !important;
+}
+
+/* =====[ CONTACT ]============================================================================== */
+
+#contact h2 {
+    padding: 29px 0 33px;
+    font-size: 20px;
+}
+
+#contact .container {
+    padding: 0;
+    width: auto;
+}
+
+#contact .box {
+    overflow: visible;
+    margin: 249px auto 85px;
+    /* padding: 13px 7px 4px 11px; */
+    width: 274px;
+    text-align: center;
+    background: #fff;
+}
+
+/* -----[ INFO ]--------------------------------------------------------------------------------- */
+
+#contact ul {
+    width: 100%;
+}
+
+#contact ul li,
+#contact ul li.address {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#contact ul li.address {
+    overflow: visible;
+    margin-top: -1px;
+}
+
+/* -----[ FORM ]--------------------------------------------------------------------------------- */
+
+#contact form {
+    float: none;
+    display: inline-block;
+    margin: 1px 0 0 -4px;
+    width: auto;
+    text-align: center;
+    line-height: 1px;
+}
+
+#contact form input,
+#contact form textarea {
+    margin-left: 0;
+    text-align: left;
+}
+
+#contact form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 12px 10px;
+    width: 252px;
+}
+
+#contact form textarea {
+    margin: 0 0 -59px;
+    padding: 14px 12px;
+    width: 252px;
+    height: 128px;
+}
+
+#contact form .button {
+    top: 35px;
+    left: auto;
+    margin: 9px;
+}
+
+/* =====[ FOOTER]================================================================================ */
+
+#footer .container {
+    padding: 43px 0 55px;
+}

@@ -1,0 +1,364 @@
+
+/* =====[ GLOBAL STYLES ]======================================================================== */
+
+body > div {
+    padding: 0 14px 0 15px;
+}
+
+.container {
+    width: 451px;
+}
+
+/* =====[ MENU ]================================================================================= */
+
+#menu.small .left {
+    margin: 8px;
+    width: 342px;
+}
+
+#menu.small left {
+    margin-right: 10px;
+}
+
+#menu.small .right {
+    margin-right: 10px;
+}
+
+/* =====[ HEADER ]=============================================================================== */
+
+/* -----[ SLIDER ]------------------------------------------------------------------------------- */
+
+#header ul,
+#header li {
+    height: 415px;
+}
+
+/* -----[ SLIDE 1 ]------------------------------------------------------------------------------ */
+
+#header .slide1 img {
+    margin-top: 50px;
+    width: 79px;
+}
+
+#header .slide1 h2 {
+    margin-top: 19px;
+    font-size: 37px;
+    line-height: 45px;
+}
+
+#header .slide1 p {
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+#header .slide1 .button {
+    display: block;
+    margin: 34px 39px 0;
+}
+
+/* =====[ TWITTER ]============================================================================== */
+
+#twitter .container {
+    padding: 23px 10px 32px;
+    width: auto;
+    background: none;
+}
+
+#twitter .user {
+    margin-left: -24px;
+    padding-left: 24px;
+    line-height: 14px;
+    background: url(../img/480/twitter.png) no-repeat left top;
+}
+
+#twitter .tweet {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+#twitter .time {
+    margin-top: 11px;
+}
+
+/* =====[ WORKS ]================================================================================ */
+
+#works .container {
+    padding: 54px 0 92px;
+}
+
+/* -----[ MENU ]--------------------------------------------------------------------------------- */
+
+#works .menu {
+    margin: 0 12px; 
+}
+
+#works .menu p {
+    display: block;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#works .list {
+    margin-top: 37px;
+    width: 462px;
+}
+
+#works .list li {
+    margin: 0 10px 62px 0;
+}
+
+/* =====[ SERVICES ]============================================================================= */
+
+#services .container {
+    padding: 71px 0 54px;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#services .arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -43px;
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    z-index: 1;
+    background: url(../img/480/carousel.png);
+}
+
+#services .arrow.left {
+    left: 20px;
+}
+
+#services .arrow.right {
+    right: 20px;
+    background-position: right top;
+}
+
+#services .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#services .arrow.right:hover {
+    background-position: right bottom;
+}
+
+#services .list {
+    margin-top: 34px;
+}
+
+#services .list .wrapper {
+    margin: 0 auto !important;
+    width: 218px !important;
+}
+
+#services .list li {
+    margin: 0 0 25px 0 !important;
+}
+
+
+/* =====[ CONTACT US ]=========================================================================== */
+
+#contact_us .decoration {
+    width: 172px;
+    height: 220px;
+    background: url(../img/480/contact_us.png);
+}
+
+#contact_us .container {
+    padding: 73px 0 145px;
+}
+
+#contact_us h2 {
+    font-size: 21px;
+}
+
+
+/* =====[ MEMBERS ]============================================================================== */
+
+#members .container {
+    padding: 79px 0 86px;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#members .list {
+    margin: 34px 0 0 12px;
+}
+
+#members .list .wrapper,
+#members .list ul {
+    position: relative !important;
+    height: auto !important;
+}
+
+#members .list ul {
+    width: 505px !important;
+}
+
+#members .list li {
+    margin-bottom: 68px;
+}
+
+/* =====[ ABOUT ]================================================================================ */
+
+#about {
+    margin-top: -94px;
+}
+
+#about .container {
+    padding-bottom: 117px;
+}
+
+#about .container > img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 427px;
+}
+
+#about .column {
+    float: none;
+    margin-top: 42px;
+    padding: 0;
+    width: auto;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about ul {
+    margin: 19px 0 0 30px;
+}
+
+#about .column .favorites {
+    display: none;
+}
+
+#about .container > .favorites {
+    display: block;
+    margin-top: 28px;
+}
+
+/* =====[ CLIENTS ]============================================================================== */
+
+#clients .container {
+    padding-bottom: 128px;
+}
+
+#clients .arrow {
+    top: 37px;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/480/carousel.png);
+}
+
+#clients .arrow.left {
+    left: 19px;
+    background-position: top left;
+}
+
+#clients .arrow.right {
+    right: 19px;
+    background-position: top right;
+}
+
+#clients .arrow.left:hover {
+    background-position: left bottom;
+}
+
+#clients .arrow.right:hover {
+    background-position: right bottom;
+}
+
+#clients .carousel {
+    margin: 0 auto !important;
+    width: 222px !important;
+}
+
+#clients .carousel li {
+    margin-right: 7px !important;
+}
+
+/* =====[ CONTACT ]============================================================================== */
+
+#contact h2 {
+    padding: 26px 0 28px;
+}
+
+#contact .container {
+    padding: 0 9px;
+    width: auto;
+}
+
+#contact .box {
+    overflow: visible;
+    margin: 260px auto 98px;
+    /* padding: 23px 22px 4px 28px; */
+    width: 381px;
+    background: #fff;
+}
+
+/* -----[ INFO ]--------------------------------------------------------------------------------- */
+
+#contact ul {
+    width: 100%;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact li.address {
+    display: block;
+    overflow: visible;
+}
+
+#contact .ico {
+    margin-right: 2px
+}
+
+/* -----[ FORM ]--------------------------------------------------------------------------------- */
+
+#contact form {
+    float: none;
+    display: inline-block;
+    margin-top: 24px;
+    width: auto;
+    text-align: center;
+    line-height: 1px;
+}
+
+#contact form input,
+#contact form textarea {
+    margin-left: 0;
+    text-align: left;
+}
+
+#contact form input {
+    display: block;
+    margin-bottom: 14px;
+    padding: 10px 12px 10px;
+    width: 350px;
+}
+
+#contact form textarea {
+    margin: 0 0 -35px;
+    padding: 14px 12px;
+    width: 350px;
+    height: 128px;
+}
+
+#contact form .button {
+    top: 38px;
+    left: auto;
+    margin: 9px ;
+}
+
+/* =====[ FOOTER]================================================================================ */
+
+#footer .container {
+    padding: 42px 0 85px;
+}

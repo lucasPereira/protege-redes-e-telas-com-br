@@ -1,0 +1,478 @@
+.justify {
+    text-align: justify !important;
+}
+
+.realce {
+    color: #235EAE;
+}
+
+/* =====[ FONTS ]================================================================================ */
+
+/* -----[ HELVETICA ]---------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("../fonts/hlvl.eot");
+    src:
+        url("../fonts/hlvl.ttf") format("truetype"),
+        url("../fonts/hlvl.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/hlvl.svg#helvetica-lt") format("svg");
+}
+
+/* -----[ ROBOTO ]------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "RobotoLight";
+    src: url("../fonts/rbtl.eot");
+    src:
+        url("../fonts/rbtl.ttf") format("truetype"),
+        url("../fonts/rbtl.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/rbtl.svg#helvetica-lt") format("svg");
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("../fonts/rbtm.eot");
+    src:
+        url("../fonts/rbtm.ttf") format("truetype"),
+        url("../fonts/rbtm.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/rbtm.svg#helvetica-lt") format("svg");
+}
+
+/* =====[ GLOBAL STYLES ]======================================================================== */
+
+body {
+    background-color: #fff;
+}
+
+body,
+a,
+input,
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #7c8387;
+}
+
+body > div {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* -----[ BUTTONS ]------------------------------------------------------------------------------ */
+
+a.button {
+    display: inline-block;
+    position: relative;
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    behavior: url(pie.htc);
+}
+
+a.button .text {
+    display: inline-block;
+    position: relative;
+    padding: 18px 61px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 -1px 1px #17982c;
+    color: #fff;
+}
+
+a.button .normal,
+a.button .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    behavior: url(pie.htc);
+}
+
+a.button .normal {
+    background: linear-gradient(#45ce5b, #17982c);
+    background: -webkit-linear-gradient(#45ce5b, #17982c);
+    background: -moz-linear-gradient(#45ce5b, #17982c);
+    background: -o-linear-gradient(#45ce5b, #17982c);
+    background: -ms-linear-gradient(#45ce5b, #17982c);
+    -pie-background: linear-gradient(#45ce5b, #17982c);
+    box-shadow: 0 1px 0 #8eff93 inset;
+    -webkit-box-shadow: 0 1px 0 #8eff93 inset;
+    -moz-box-shadow: 0 1px 0 #8eff93 inset;
+    -ms-box-shadow: 0 1px 0 #8eff93 inset;
+    -o-box-shadow: 0 1px 0 #8eff93 inset;
+    behavior: url(pie.htc);
+}
+
+a.button .hover {
+    display: none;
+    background: linear-gradient(#45ce5b, #17bb31);
+    background: -webkit-linear-gradient(#45ce5b, #17bb31);
+    background: -moz-linear-gradient(#45ce5b, #17bb31);
+    background: -o-linear-gradient(#45ce5b, #17bb31);
+    background: -ms-linear-gradient(#45ce5b, #17bb31);
+    -pie-background: linear-gradient(#45ce5b, #17bb31);
+    box-shadow: 0 1px 0 #8eff93 inset;
+    -webkit-box-shadow: 0 1px 0 #8eff93 inset;
+    -moz-box-shadow: 0 1px 0 #8eff93 inset;
+    -ms-box-shadow: 0 1px 0 #8eff93 inset;
+    -o-box-shadow: 0 1px 0 #8eff93 inset;
+    behavior: url(pie.htc);
+}
+
+a.button.download .text {
+    padding: 18px 52px 14px;
+    font-size: 18px;
+    background:
+        url(../img/button.png) no-repeat,
+        url(../img/button.png) no-repeat right bottom;
+    -pie-background:
+        url(../img/button.png) no-repeat,
+        url(../img/button.png) no-repeat right bottom;
+    behavior: url(pie.htc);
+}
+
+a.button.blue {
+    border: 1px solid #005998;
+}
+
+a.button.blue .text {
+    padding: 16px 31px 14px;
+    text-transform: none;
+    text-shadow: 0 -1px 0 #022268;
+}
+
+a.button.blue .normal {
+    background: linear-gradient(#00a7f7, #0563bb);
+    background: -webkit-linear-gradient(#00a7f7, #0563bb);
+    background: -moz-linear-gradient(#00a7f7, #0563bb);
+    background: -o-linear-gradient(#00a7f7, #0563bb);
+    background: -ms-linear-gradient(#00a7f7, #0563bb);
+    -pie-background: linear-gradient(#00a7f7, #0563bb);
+    box-shadow: 0 1px 0 #12dbff inset;
+    -webkit-box-shadow: 0 1px 0 #12dbff inset;
+    -moz-box-shadow: 0 1px 0 #12dbff inset;
+    -ms-box-shadow: 0 1px 0 #12dbff inset;
+    -o-box-shadow: 0 1px 0 #12dbff inset;
+    behavior: url(pie.htc);
+}
+
+a.button.blue .hover {
+    display: none;
+    background: linear-gradient(#008af3, #0244a2);
+    background: -webkit-linear-gradient(#008af3, #0244a2);
+    background: -moz-linear-gradient(#008af3, #0244a2);
+    background: -o-linear-gradient(#008af3, #0244a2);
+    background: -ms-linear-gradient(#008af3, #0244a2);
+    -pie-background: linear-gradient(#008af3, #0244a2);
+    box-shadow: 0 1px 0 #12c4ff inset;
+    -webkit-box-shadow: 0 1px 0 #12c4ff inset;
+    -moz-box-shadow: 0 1px 0 #12c4ff inset;
+    -ms-box-shadow: 0 1px 0 #12c4ff inset;
+    -o-box-shadow: 0 1px 0 #12c4ff inset;
+    behavior: url(pie.htc);
+}
+
+/* -----[ COMBOBOX ]----------------------------------------------------------------------------- */
+
+.combo {
+    overflow: visible !important;
+    display: block !important;
+    position: relative;
+    z-index: 3;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.combo ul {
+    display: none;
+    position: absolute;
+}
+
+.combo ul li {
+    float: none !important;
+    display: block !important;
+    text-align: left;
+}
+
+/* -----[ SOCIAL NETWORKS ]---------------------------------------------------------------------- */
+
+a.social {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+a.social,
+a.social .hover {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/social.png);
+}
+
+a.social .hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+a.social + a.social {
+    margin-left: 3px;
+}
+
+a.social.facebook {
+    background-position: 0 0;
+}
+
+a.social.twitter {
+    background-position: -25px 0;
+}
+
+a.social.dribble {
+    background-position: -50px 0;
+}
+
+a.social.linkedin {
+    background-position: -75px 0;
+}
+
+a.social.googleplus {
+    background-position: -100px 0;
+}
+
+a.social.path {
+    background-position: -125px 0;
+}
+
+a.social.facebook .hover {
+    background-position: 0 -25px;
+}
+
+a.social.twitter .hover {
+    background-position: -25px -25px;
+}
+
+a.social.dribble .hover {
+    background-position: -50px -25px;
+}
+
+a.social.linkedin .hover {
+    background-position: -75px -25px;
+}
+
+a.social.googleplus .hover {
+    background-position: -100px -25px;
+}
+
+a.social.path .hover {
+    background-position: -125px -25px;
+}
+
+/* =====[ MENU ] ================================================================================ */
+
+#menu {
+    background: #fff;
+    z-index: 3;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    behavior: url(pie.htc);
+}
+
+#menu .container {
+    overflow: visible;
+    display: table;
+    padding: 25px 0;
+}
+
+#menu .left,
+#menu .right {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#menu .right {
+    overflow: hidden;
+}
+
+#menu .spike {
+    display: none;
+}
+
+#menu .logo {
+    font-family: RobotoLight;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+#menu .logo b {
+    font-family: RobotoMedium;
+}
+
+#menu ul {
+    overflow: hidden;
+    float: right;
+    line-height: 25px;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+#menu ul a {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a3a3a3;
+}
+
+#menu ul a:hover,
+#menu ul .active a {
+    color: #353637;
+}
+
+#menu ul .active a {
+    cursor: default;
+}
+
+#menu.small .container,
+#menu.small .left,
+#menu.small .right {
+    display: block;
+}
+
+#menu.small .container {
+    padding: 17px 0 18px;
+}
+
+#menu.small .left {
+    float: left;
+}
+
+#menu .combo {
+    float: right;
+    position: static;
+    width: 59px;
+    height: 42px;
+    cursor: pointer;
+    background: url(../img/menu.png) no-repeat left top #fff;
+}
+
+#menu .combo:hover,
+#menu .combo.open {
+    background-position: top right;
+}
+
+#menu .combo .spike {
+    display: block;
+    position: absolute;
+    top: -11px;
+    right: 18px;
+    width: 15px;
+    height: 11px;
+    background: url(../img/spike.png) no-repeat 0 -11px;
+}
+
+#menu .combo ul {
+    overflow: visible;
+    top: 68px;
+    left: 13px;
+    right: 11px;
+    border: 3px solid rgba(0, 0, 0, 0.05);
+    padding: 4px 19px 7px 11px;
+    background: rgba(0, 0, 0, 0.8);
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 1px 1px 0 #191919 inset, -1px -1px 0 #191919 inset;
+    -webkit-box-shadow: 1px 1px 0 #191919 inset, -1px -1px 0 #191919 inset;
+    -moz-box-shadow: 1px 1px 0 #191919 inset, -1px -1px 0 #191919 inset;
+    -ms-box-shadow: 1px 1px 0 #191919 inset, -1px -1px 0 #191919 inset;
+    -o-box-shadow: 1px 1px 0 #191919 inset, -1px -1px 0 #191919 inset;
+    behavior: url(pie.htc);
+}
+
+#menu .combo li {
+    margin: 0;
+}
+
+#menu .combo a,
+#menu .combo .active a {
+    display: block;
+    font-size: 15px;
+    line-height: 34px;
+    text-transform: none;
+    cursor: pointer;
+    color: #fff;
+    background: url(../img/bullet3.png) no-repeat right center;
+}
+
+#menu .combo a:hover {
+    color: #008bed;
+    background-image: url(../img/bullet2.png);
+}
+
+/* =====[ FOOTER]================================================================================ */
+
+#footer {
+    text-align: center;
+    background: #11161b;
+}
+
+#footer .container {
+    padding: 37px 0 34px;
+}
+
+#footer p {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #7c8387;
+}
+
+#footer p .heart {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url(../img/heart2.png);
+}
+
+#footer .social {
+    margin-top: 7px;
+    display: inline-block;
+}

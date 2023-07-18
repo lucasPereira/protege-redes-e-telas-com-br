@@ -1,0 +1,299 @@
+
+/* =====[ GLOBAL STYLES ]======================================================================== */
+
+body > div {
+    padding: 0 27px;
+}
+
+.container {
+    width: 714px;
+}
+
+/* =====[ TWITTER ]============================================================================== */
+
+#twitter .container {
+    padding: 30px 76px 22px 86px;
+    width: 552px;
+    background-position: 3px 51px;
+}
+
+/* =====[ HEADER ]=============================================================================== */
+
+/* -----[ SLIDER ]------------------------------------------------------------------------------- */
+
+#header ul,
+#header li {
+    height: 415px;
+}
+
+/* -----[ SLIDE 1 ]------------------------------------------------------------------------------ */
+
+#header .slide1 img {
+    margin-top: 55px;
+}
+
+#header .slide1 h2 {
+    margin-top: 27px;
+    font-size: 33px;
+}
+
+#header .slide1 p {
+    margin-top: 9px;
+    font-size: 28px;
+}
+
+#header .slide1 .button {
+    margin-top: 40px;
+}
+
+/* =====[ WORKS ]================================================================================ */
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#works .list {
+    width: 742px;
+}
+
+/* =====[ SERVICES ]============================================================================= */
+
+#services .container {
+    padding: 71px 0;
+}
+
+/* -----[ MENU ]--------------------------------------------------------------------------------- */
+
+#services .menu {
+    display: block;
+    position: relative;
+    margin-top: 51px;
+    padding-left: 19px;
+    z-index: 3;
+}
+
+#services .menu li {
+    display: inline-block;
+    position: relative;
+    width: 125px;
+    height: 151px;
+    vertical-align: top;
+}
+
+#services .menu li + li {
+    margin-left: 56px;
+}
+
+#services .menu li img {
+    width: 125px;
+    height: 125px;
+}
+
+#services .menu li .spike {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -11px;
+    width: 23px;
+    height: 12px;
+    background: url(../img/spike.png);
+}
+
+#services .menu li:first-child .spike {
+    display: block;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#services .list {
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+#services .list li {
+    width: 712px;
+    opacity: 0;
+    white-space: normal;
+    behavior: url(pie.htc);
+}
+
+#services .list li:first-child {
+    opacity: 1;
+    behavior: url(pie.htc);
+}
+
+#services .list li + li {
+    margin-left: -717.75px;
+}
+
+#services .list img,
+#services .list h3 .spike {
+    display: none;
+}
+
+#services .list h3 {
+    border-top: none;
+}
+
+#services .list td:first-child {
+    padding: 0 7px;
+    width: 374px;
+    text-align: right;
+}
+
+#services .list td:last-child {
+    text-align: left;
+}
+
+/* =====[ CONTACT US ]=========================================================================== */
+
+#contact_us .container {
+    padding: 73px 0 152px;
+}
+
+#contact_us .decoration {
+    width: 259px;
+    height: 331px;
+    background: url(../img/768/contact_us.png);
+}
+
+/* =====[ MEMBERS ]============================================================================== */
+
+#members .container {
+    padding: 71px 0 99px;
+}
+
+/* -----[ LIST ]--------------------------------------------------------------------------------- */
+
+#members .list {
+    margin-left: 0;
+}
+
+#members .list li {
+    margin-right: 0 !important;
+    padding-top: 169px;
+    width: 152px;
+}
+
+#members .list li + li {
+    margin-left: 34px;
+}
+
+#members .list img,
+#members .list img + a,
+#members .list .join a {
+    width: 135px;
+    height: 135px;
+    left: 9px;
+}
+
+#members .list img + a {
+    background-position: 0 -180px;
+}
+
+#members .list p {
+    margin-top: 1px;
+    font-size: 11px;
+}
+
+#members .list div.social {
+    margin-top: 12px;
+}
+
+#members .list .join a {
+    background-position: -135px -180px;
+}
+
+#members .list .join a:hover {
+    background-position: -270px -180px;
+}
+
+
+/* =====[ ABOUT ]================================================================================ */
+
+#about .container {
+    padding-bottom: 50px;
+}
+
+#about .container > img {
+    width: 348px;
+}
+
+#about .column {
+    padding-top: 6px;
+    width: 350px;
+}
+
+#about .column .favorites {
+    display: none;
+}
+
+#about .container > .favorites {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+/* =====[ CLIENTS ]============================================================================== */
+
+#clients .container {
+    padding-bottom: 109px;
+}
+
+#clients .arrow {
+    top: 42px;
+}
+
+#clients .arrow.left {
+    left: -14px;
+}
+
+#clients .arrow.right {
+    right: -14px;
+}
+
+#clients .carousel {
+    margin-left: 17px !important;
+    width: 680px !important;
+}
+
+#clients .carousel li {
+    margin-right: 7px !important;
+}
+
+/* =====[ CONTACT ]============================================================================== */
+
+#contact {
+    padding: 0 7px;
+}
+
+#contact .container {
+    width: 750px;
+}
+
+#contact .box {
+    /* padding: 31px 22px 5px 24px; */
+    background: url(../data/contact/small.png) no-repeat 23px 123px #fff;
+}
+
+#contact ul {
+    /* width: 210px; */
+}
+
+#contact ul,
+#contact ul li {
+    display: block;
+}
+
+#contact ul li + li {
+    margin-top: 18px;
+}
+
+#contact .ico {
+    margin-right: 2px
+}
+
+/* =====[ FOOTER]================================================================================ */
+
+#footer .container {
+    padding: 37px 0 38px;
+}
